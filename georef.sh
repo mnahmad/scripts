@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# this file is used to scale an image (in this case to 5km per pixel)
 clear
 
 # fun stuff
