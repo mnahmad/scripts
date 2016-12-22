@@ -3,7 +3,6 @@
 This repo. contains bash, r and python scripts that I use from time to time. 
 
 1. georef.sh
-
 Rescales an image
 
 2. scale.r      
