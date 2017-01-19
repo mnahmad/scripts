@@ -40,7 +40,7 @@ cd /tmp/folder/GIMMS-gref-tif/  #NOTE: change path to your own folder
 		rm /tmp/R_raster_username/*.gri
 		rm /tmp/R_raster_username/*.grd
 
-	# end for loop
+
 	done
 
 
