@@ -5,7 +5,7 @@ The files are
 1. landsatrowpath.csv  = contains specific row path (in our case africa)
 2. ls_on_date.csv = the output of the script on a specific date. The output looks like the one below (showing rowpath and the total number of landsat seen for that rowpath)
 
-~~~
+```bash
 159052 
     "total": 30, 
 159053 
@@ -76,7 +76,7 @@ The files are
 163068 
     "total": 27, 
 
-~~~
+```
 
 
 3. total.csv = a cleaned version of ls_on_date.csv
