@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# this script will create holes in NDVI (and EVI) dataset using PR band. 
+# this script resample GIMMS images using r script. 
 
 clear
 

@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# translate images to new EPSG
+
 echo "Translate all files to a EPSG:4326"
 
 for tiffiles in *.tif

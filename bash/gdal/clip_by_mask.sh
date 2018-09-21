@@ -15,7 +15,7 @@ NC='\e[0m' # No Color
 
 echo -e "${red}*** Converter Start ***${NC}"
 
-cd /media/external/muhammad/clipped/MONTHLY_NDVI_Tifs/  #NOTE: change path to your own folder
+cd /path-to/MONTHLY_NDVI_Tifs/  #NOTE: change path to your own folder
 
 for my_dir in `ls` #all the year folders in parent folder
 do			
@@ -27,7 +27,7 @@ do
 
 	for myfile in *.tif
 	do
-		outputfile=$myfile"_Kenya.tif"		
+		outputfile=$myfile"_clipped.tif"		
 
 		echo -e "${LightBlue} --tiff file clip starts-- ${NC}"
 		# -dsalpha adds alpha band to the output tiff which masks out the area falling outside the cutline. shp is outside the years folder in 	main folder 	

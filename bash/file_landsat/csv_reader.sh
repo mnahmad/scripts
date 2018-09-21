@@ -1,6 +1,12 @@
 #!/bin/bash
 
-# This scripts calculate total number of images for landsat 8.
+# This scripts calculate total number of images for landsat 8 for a specific pathrows.
+# the files are 
+# 1. landsatrowpath.csv  = contains specific row path (in our case africa)
+# 2. ls_on_date.csv = the output of the script on a specific date
+# 3. total.csv = a cleaned version of ls_on_date.csv
+# 4. total.csvt = csvt file to be used for GIS styling etc. 
+ 
 
 clear
 

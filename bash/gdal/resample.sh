@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # this file is used to scale an image (in this case to 5km per pixel)
+
 clear
 
 # fun stuff
@@ -13,11 +14,11 @@ NC='\e[0m' # No Color
 
 echo -e "${red}*** Geo Ref Start ***${NC}"
 
-cd /tmp/folder/GIMMS_scale_tif_v3/ # for GIMMS 
+cd /path-to-file/ # for GIMMS 
                             
 	for myfile in *.tif
 	do
-		# my files name is like geo00jul15a.tif, I  stripped '.tif' and added 'resampled.tif'	
+		# file name is like geo00jul15a.tif, I  stripped '.tif' and added 'resampled.tif'	
 		output_newfile=${myfile:0:11}		
 		output_newfile=$output_newfile"_resampled.tif"
 
