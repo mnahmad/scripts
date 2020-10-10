@@ -1,5 +1,6 @@
 *.py[cod]
 *.csv~
+*.csvt~
 *.sh~
 *.*~
 .DS_Store
